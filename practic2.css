@@ -1,0 +1,649 @@
+
+p {
+    font-family:arial;
+}
+
+.img{
+
+    width:100%;
+    margin-bottom:1px;
+    display:grid;
+    grid-template-columns: 1fr;
+    
+    
+    
+}
+
+.img2{
+
+    width:82%;
+
+    border-radius: 30px;
+    margin-right: 0px;
+    
+
+}
+
+.divimg2{
+margin-top: 5px;
+
+
+
+}
+
+.griddiv1{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+}
+
+.line{
+
+font-size:15px;
+font-weight:bold;
+color: rgb(0, 0, 0);
+font-style: italic;
+margin-bottom:3px;
+margin-top:0px;
+margin-bottom: 0px;
+
+
+}
+
+.line2{
+margin-top:0px;
+margin-bottom: 0px;
+font-size:15px;
+
+
+
+}
+
+
+
+.line3{
+font-size:15px;
+font-weight:bold;
+margin-top:5px;
+margin-bottom: 5px;
+}
+
+
+
+
+.daddiv1{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+
+
+
+
+}
+
+.daddiv2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+
+
+
+
+
+
+}
+
+.daddiv3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+
+
+
+
+
+
+
+
+}
+
+.div1{
+
+    position: relative;
+}
+
+
+.textdiv{
+
+        margin-left:15px;
+        margin-top: 5px;
+
+
+    }
+
+    .search{
+        font-size:20px;
+       padding-left:15px;
+       height:42px;
+       border-style:solid;
+       border-width: 1px;
+         display: flex;
+        flex:1;
+        box-shadow: inset 2px 3px 5px rgba(0, 0, 0, 0.1);
+        font-family: arial;
+        width:0;
+        height: 34px;
+        border-color:rgb(203, 203, 203);
+
+
+
+    }
+
+
+
+    .top-portion{
+
+        height:55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left:0;
+        right:0;
+        background-color: white;
+        border-bottom-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-top-width:0px;
+        border-color: rgb(223, 223, 223);
+        border-style: solid;
+        z-index:1;
+
+    }
+
+    .sidebar{
+
+        position: fixed;
+        left:0px;
+        bottom:0px;
+        top:55px;
+        width:80px;
+        background-color: white;
+        z-index:1;
+
+        
+
+    }
+
+    .itemssidebar img{
+
+
+        width:30px;
+        
+
+    }
+
+    .itemssidebar div{
+    font-family: arial;
+        font-size: 10px;
+        margin-top: 5px;
+
+
+    }
+
+    .itemssidebar{
+
+        height:76px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .itemssidebar:hover{
+
+            background-color: rgb(235, 234, 234);
+            cursor:pointer;
+
+    }
+
+    .left-section{
+
+        
+        width: 200px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .middle-section{
+
+        flex:1;
+        margin-left: 90px;
+        margin-right:60px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+
+        
+    }
+
+    .right-section{
+
+    width:240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: relative;
+    
+    }   
+
+    .threelineimg{
+        height: 23px ; 
+        margin-left: 30px;
+        margin-right: 20px;
+        cursor: pointer;
+
+    }
+
+
+
+    .youtubeimg{
+
+        height: 50px;
+        width: 100px;
+        cursor: pointer;
+
+        
+    }
+
+    .micimg{
+
+        
+        width:33px;
+        margin-left: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .michover{
+
+        position: absolute;
+        right:-63px;
+        top:55px;
+        background-color: gray;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        opacity: 0;
+        pointer-events: none;
+
+    }
+
+    .micyar:hover .michover{
+
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .micimg:hover{
+
+        box-shadow: 3px 3px 10px rgba( 0, 0, 0, 0.6);
+
+    }
+
+    .searchimg{
+
+        height:32px;
+        width: 45px;
+        cursor: pointer;
+
+
+    }
+
+    .searchbutton{
+        padding: 0px;
+        margin: 0px;
+        border-style: solid;
+        border-color:rgb(203, 203, 203);
+        border-width:1px;
+
+        
+    }
+
+    .searchbutton div{
+
+        position: absolute;
+        top:55px;
+        right:50px;
+        background-color: gray;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        opacity: 0;
+
+
+    }
+
+    .searchhover{
+
+        pointer-events: none;
+    }
+
+    .searchbutton:hover div{
+
+        opacity: 1;
+        transition: 0.5s;
+    }
+    
+    .searchbutton:hover{
+
+        box-shadow: 3px 3px 10px rgba( 0, 0, 0, 0.6);
+        transition: 1s;
+    }
+
+    .searchbutton:active{
+
+        box-shadow: 0.5px 0.5px 1px rgba( 0, 0, 0, 0.3);
+
+    }
+
+    .createimg{
+
+        height:50px;
+        cursor: pointer;
+       
+    }
+
+    .createhover{
+        position: absolute;
+        bottom: -28px;
+        left: -2px;
+        background-color: gray;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .createyar:hover .createhover{
+
+        opacity:1;
+        transition: 0.5s;
+
+    }
+
+
+    .dots3dimg{
+
+        height:30px;
+        cursor: pointer;
+
+    }
+
+    .dots3dyar:hover .hoverapps{
+    opacity: 1;
+    transition: 0.5s;
+
+    }
+
+.hoverapps{
+
+    position: absolute;
+    top:55px;
+    right:95px;
+    background-color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+
+
+}
+
+    .belliconimg{
+
+        height: 30px;
+        cursor: pointer;
+
+    }
+
+    .hoverbell:hover .hovernotifi{
+
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .hovernotifi{
+        position: absolute;
+        top:55px;
+        right:50px;
+        background-color: gray;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        opacity: 0;
+        pointer-events: none;
+    
+    }
+    .profileimg{
+
+        height: 30px;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-right: 30px;
+
+    }
+
+    .hoverprofile:hover .profilehover{
+
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+    .profilehover{
+
+        position: absolute;
+        top:55px;
+        right:20px;
+        background-color: gray;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        opacity: 0;
+        pointer-events: none;
+
+
+    }
+
+
+
+    .time{
+
+        position: absolute;
+        background-color: black;
+        color:white;
+        right:10px;
+        bottom:110px;
+        font-family: arial;
+        font-weight: 500px;
+        padding-left:3px;
+        padding-right: 3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 5px;
+        font-size:13px;
+    }
+
+    .time2{
+        position: absolute;
+        background-color: black;
+        color:white;
+        right:10px;
+        bottom:111px;
+        font-family: arial;
+        font-weight: 500px;
+        padding-left:3px;
+        padding-right: 3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 5px;
+        font-size:13px;
+
+
+
+    }
+
+    .time3{
+
+        position: absolute;
+        background-color: black;
+        color:white;
+        right:10px;
+        bottom:135px;
+        font-family: arial;
+        font-weight: 500px;
+        padding-left:3px;
+        padding-right: 3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 5px;
+        font-size:13px;
+
+
+    }
+
+    .belliconno{
+
+        position: absolute;
+        background-color: rgb(222, 61, 61);
+        color:white;
+        font-size:15px;
+        padding-left: 7px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 30px;
+        right:80px;
+        top:8px;
+        width:3px;
+
+    }
+
+
+
+
+
+
+
+
+    @media (max-width: 1000px) {
+        .daddiv1{
+
+            grid-template-columns: 1fr 1fr ;
+        }
+        
+    }
+    @media (max-width: 1000px) {
+        .daddiv2{
+
+            grid-template-columns: 1fr 1fr ;
+        }
+        
+    }
+
+    @media (max-width: 1000px) {
+        .daddiv3{
+
+            grid-template-columns: 1fr 1fr ;
+        }
+        
+    }
+
+
+
+.conc{
+
+font-size: 23px;
+
+position: absolute;
+color: black;
+width:350px;
+top:50px;
+left:-100px;
+cursor:default;
+opacity: 0;
+
+/* pointer-events: none; */
+
+
+}
+
+.github{
+
+
+    font-size: 30px; 
+    font-family:arial; 
+    cursor: pointer;
+    border-style: solid;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.concc{
+
+    flex-direction: row;
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+.concc2{
+
+
+    flex-direction: row;
+    display: flex;
+    position: relative;
+
+
+}
+
+
+
